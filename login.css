@@ -53,6 +53,7 @@ h4{
 }
 input{
     border: 2px solid transparent;
+    box-shadow: 3px 5px 0px 1px rgb(190, 190, 190);
     border-radius: 50px;
     width: 260px;
     padding: 10px 20px;

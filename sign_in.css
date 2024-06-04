@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(229, 229, 229);
+}
+.logo_image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+.para1{
+    font-size: larger;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+h4{
+    font-size: larger;
+}
+.middle{
+    display: flex;
+    margin: auto;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    height: 500px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+input{
+    border: 2px solid rgb(243, 243, 243);
+    background-color: aliceblue;
+    height: 35px;
+    width: 300px;
+    padding: 5px 0px 5px 15px;
+    border-radius: 10px;
+}
+.forget_password{
+    color: blue;
+    text-decoration: none;
+}
+button{
+    border: 2px solid transparent;
+    height: 50px;
+    width: 321px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}

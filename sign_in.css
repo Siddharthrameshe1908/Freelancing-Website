@@ -32,6 +32,7 @@ h4{
 input{
     border: 2px solid rgb(243, 243, 243);
     background-color: aliceblue;
+    box-shadow: 3px 5px 0px 1px rgb(190, 190, 190);
     height: 35px;
     width: 300px;
     padding: 5px 0px 5px 15px;

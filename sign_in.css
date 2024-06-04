@@ -49,3 +49,6 @@ button{
     color: white;
     cursor: pointer;
 }
+input:hover{
+    transform: translate(2px,-3px);
+}

@@ -74,7 +74,8 @@ button{
     width: max-content;
 }
 
-input:hover{
+input:hover,input:focus{
+    outline: 2px solid transparent;
     cursor: pointer;
     transform: translate(3px,-4px);
 }

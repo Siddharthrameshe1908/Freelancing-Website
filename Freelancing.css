@@ -14,7 +14,6 @@ body{
     color: black;
     border: 2px solid transparent;
     padding: 10px 20px;
-    transition-property: border;
 }
 
 .top_links:hover{
@@ -36,12 +35,17 @@ body{
     gap: 10px;
 }
 
+#pic{
+    color: rgb(83, 83, 193);
+}
+
 .logo_pic{
     height: 50px;
     border: 2px solid rgb(155, 155, 155);
     border-radius: 50px;
     cursor: pointer;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -73,8 +77,11 @@ body{
 }
 
 .search_freelance{
-    padding: 15px 30px;
-    margin-left: 60px;
+    margin-left: 200px;
+    margin-top: -49px;
+}
+.search_freelance_input{
+    padding: 16px 30px;
     border-radius: 10px;
 }
 
@@ -450,7 +457,8 @@ a[target="_blank"]{
     cursor: pointer;
 }
 
-.email_address:hover{
+.email_address:hover,.email_address:focus{
+    outline: 2px solid transparent;
     transform: translate(-3px,-3px);
     cursor: pointer;
     box-shadow: 2px 2px 0px 1px gray;
@@ -466,14 +474,15 @@ a[target="_blank"]{
     word-spacing: 10px;
 }
 .hire_a_freelancer:hover{
-    /* transform: translate(-3px,-3px); */
-    transition-duration: 2s;
+    transform: translate(-3px,-3px);
+    transition-duration: 1s;
     transition-property: background-color;
     transition-timing-function: ease;
     background-color:darkblue;
     cursor: pointer;
 }
-.search_freelance:hover{
+.search_freelance_input:hover,.search_freelance_input:focus{
+    outline: none;
     transform: translate(3px,-3px);
 }
 

@@ -12,6 +12,9 @@ body{
 .top_links{
     text-decoration: none;
     color: black;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    transition-property: border;
 }
 
 .top_links:hover{
@@ -19,6 +22,10 @@ body{
     border-radius: 20px;
     padding: 10px 20px;
     color: white;
+    transition: 1s;
+    transition-property: border color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
     background-color: lightseagreen;
 }
 
@@ -388,42 +395,58 @@ a[target="_blank"]{
     transform: translate(3px,-9px);
 }
 .div1:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div2:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div3:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div4:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div5:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div6:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div7:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
 .div8:hover{
-    transform: translate(3px,-9px);
+    transition-duration: 1s;
+    transform: rotateY(360deg);
+    transition-timing-function: ease-in;
     cursor: pointer;
 }
 
@@ -439,14 +462,16 @@ a[target="_blank"]{
     box-shadow: 2px 2px 0px 1px gray;
 }
 
-.hire_a_freelancer{
-    cursor: pointer;
-}
 .last_container{
     word-spacing: 10px;
 }
 .hire_a_freelancer:hover{
-    transform: translate(-3px,-3px);
+    /* transform: translate(-3px,-3px); */
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    background-color:darkblue;
+    cursor: pointer;
 }
 .search_freelance:hover{
     transform: translate(3px,-3px);

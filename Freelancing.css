@@ -85,6 +85,16 @@ body{
     border-radius: 10px;
 }
 
+.create_acc{
+    text-decoration: none;
+    color: black;
+}
+
+.search_work{
+    text-decoration: none;
+    color: black;
+}
+
 .heading1{
     width: 500px;
     text-align: justify;
